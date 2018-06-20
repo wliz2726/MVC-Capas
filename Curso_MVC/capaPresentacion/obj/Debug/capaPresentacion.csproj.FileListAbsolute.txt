@@ -1,0 +1,9 @@
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\bin\Debug\capaPresentacion.exe
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\bin\Debug\capaPresentacion.pdb
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.csprojResolveAssemblyReference.cache
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.Properties.Resources.resources
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.csproj.GenerateResource.cache
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.csproj.CoreCompileInputs.cache
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.exe
+E:\POO\Crea.aplicaciones.con.C.y.SQL.para.window\Programa\Curso_MVC\capaPresentacion\obj\Debug\capaPresentacion.pdb

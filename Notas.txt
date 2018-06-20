@@ -1,0 +1,88 @@
+Curso MVC
+
+*Programacion en capas
+
+La programacion por capas es una arquitectura que tiene como objetivo la aeparacion de 
+la logica y el diseno de la interfaz,de tal manera que si deseas realizar algun cambio 
+este afecta a una capa especifica sin necesidad de manipular o modificar gran parte del sistema.
+
+*Niveles de capas:
+
+1- Capa Entidad: Es la capa ;a cual tendra las clases con la estructura de la tablas de la base de datos.
+
+2- Capa de Datos: es la capa la cual se encarga de la comunicacion con la base de datos, 
+es decir esta capa es la encargada de consultar, eliminar, insertar o editar los datos en la base de datos.
+
+3- Capa de negocio:es la capa la cual recibe las peticiones enviadas por el usuario que manipula la capa presentacion.
+
+4- Capa Presenntacion: es la capa que ve el usuario en nuestro caso la capa presentacion estara basada en formunarios los cuales son los que interactuan con el usuario.
+
+
+*Creacion de la base de datos:
+
+create database CursoMVC
+
+use CursoMVC
+
+create table empleados(
+codEmp int primary key identity,
+nomEmp varchar(30) not null,
+edadEmp int not null,
+sexoEmp char(1) not null,
+sueldoEmp money not null)
+
+
+insert into empleados values('Wilian',33, 'M',3000)
+insert into empleados values('Justine',23, 'F',4000)
+insert into empleados values('Bianka',32, 'F',8000)
+insert into empleados values('Isaac',33, 'M',7000)
+
+select * from empleados
+
+
+
+y se ejecutan todoslos codigos
+
+
+* Creacion de las capas:
+
+1- En visual studio creas un nuevo proyecto creando una solucion en plantillas, otros tipos de proyectos, solucion de visualstudio y agregas el nombre.
+2- click derecho a la solucion, agregar, nuevo proyecto, en visual c# escojemos bibliotecas de clases. los hacemos con las demas claces excepto la capa presentacion porque seria un windows form.
+3- eliges a la capa presentacion como proyecto principal en click derecho como proyecto de inicio.
+
+
+* Crear conexion hacia la base de datos
+
+conexion en app.config
+
+1- En la capa presentacion le damos doble click a app.config y programamoc nuestra conexion
+
+2- Dentro de las <connectionStrings> pones el codigo de la conexion
+
+	<connectionStrings>
+		<!--<add name="sqlconex" connectionString="server=.;Integrated Security=yes;Database=SQLQuery_capas"/>--> <!--Esto es si entra con un usuario al sql server-->
+		<add name="sqlconex" conectionString= "sever=.;Integrated=false;Database=bdempresa;uid=sa;pwd=sql;"/> <!-- Esto es si tienes un usuario en sql server -->
+	</connectionStrings>	
+	
+
+
+* Crear entidades en empleados
+
+Debe tener la estructura de unestra tabla empleado como tiene 5 complos tendremos 5 atributos
+
+los metodos get y set es por que es POO
+Atributos:
+
+	public int cod { get; set; }
+        public string nom { get; set; }
+        public int edad { get; set; }
+        public string sexo { get; set; }
+        public double sueldo { get; set; }
+
+
+*Crear los metodos listado
+
+Debemos instanciar la conexion 
+
+
+
